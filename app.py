@@ -1,11 +1,10 @@
-
 from flask import Flask
 
 app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello Agalya! My first app is running."
+    return "Hello Agalya! My application is successfully updated."
 
 @app.route("/health")
 def health():
